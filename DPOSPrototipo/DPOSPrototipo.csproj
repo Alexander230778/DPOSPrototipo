@@ -57,9 +57,86 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Login.aspx" />
+    <Content Include="Paginas\Atenciones.aspx" />
+    <Content Include="Paginas\Detalles.aspx" />
+    <Content Include="Paginas\DetenerAtencionFacilidades.aspx" />
+    <Content Include="Paginas\DetenerAtencionMotivo.aspx" />
+    <Content Include="Paginas\Opcion.aspx" />
+    <Content Include="Paginas\Orden.aspx" />
+    <Content Include="Principal.aspx" />
     <Content Include="Web.config" />
+    <Content Include="_Css\StyleGeneral.css" />
+    <Content Include="_Css\StyleGridView.css" />
+    <Content Include="_Css\StyleLogin.css" />
+    <Content Include="_Css\StyleMenuMaster.css" />
+    <Content Include="_Css\StylePageMaster.css" />
+    <Content Include="_Css\StyleReports.css" />
+    <Content Include="_Images\edit.png" />
+    <Content Include="_Images\edit_hover.png" />
+    <Content Include="_Images\find.png" />
+    <Content Include="_Images\mail.png" />
+    <Content Include="_Images\POS.png" />
+    <Content Include="_Images\Processing.gif" />
+    <Content Include="_Images\User.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Atenciones.aspx.cs">
+      <DependentUpon>Atenciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Atenciones.aspx.designer.cs">
+      <DependentUpon>Atenciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Detalles.aspx.cs">
+      <DependentUpon>Detalles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Detalles.aspx.designer.cs">
+      <DependentUpon>Detalles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\DetenerAtencionFacilidades.aspx.cs">
+      <DependentUpon>DetenerAtencionFacilidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\DetenerAtencionFacilidades.aspx.designer.cs">
+      <DependentUpon>DetenerAtencionFacilidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\DetenerAtencionMotivo.aspx.cs">
+      <DependentUpon>DetenerAtencionMotivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\DetenerAtencionMotivo.aspx.designer.cs">
+      <DependentUpon>DetenerAtencionMotivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Opcion.aspx.cs">
+      <DependentUpon>Opcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Opcion.aspx.designer.cs">
+      <DependentUpon>Opcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Orden.aspx.cs">
+      <DependentUpon>Orden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Orden.aspx.designer.cs">
+      <DependentUpon>Orden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +146,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
