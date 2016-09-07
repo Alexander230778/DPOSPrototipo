@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Login.aspx" />
     <Content Include="Paginas\Atenciones.aspx" />
+    <Content Include="Paginas\Confirmacion.aspx" />
     <Content Include="Paginas\Detalles.aspx" />
     <Content Include="Paginas\DetenerAtencionFacilidades.aspx" />
     <Content Include="Paginas\DetenerAtencionMotivo.aspx" />
@@ -72,6 +73,8 @@
     <Content Include="_Css\StyleMenuMaster.css" />
     <Content Include="_Css\StylePageMaster.css" />
     <Content Include="_Css\StyleReports.css" />
+    <Content Include="_Images\apply.gif" />
+    <Content Include="_Images\apply_c.gif" />
     <Content Include="_Images\edit.png" />
     <Content Include="_Images\edit_hover.png" />
     <Content Include="_Images\find.png" />
@@ -94,6 +97,13 @@
     </Compile>
     <Compile Include="Paginas\Atenciones.aspx.designer.cs">
       <DependentUpon>Atenciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Confirmacion.aspx.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Confirmacion.aspx.designer.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Detalles.aspx.cs">
       <DependentUpon>Detalles.aspx</DependentUpon>

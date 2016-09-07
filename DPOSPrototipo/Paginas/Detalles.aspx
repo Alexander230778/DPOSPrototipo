@@ -31,8 +31,8 @@
 				            <td colspan="2" style="border:2px solid black;text-align:center;">Atención C-097600021</td>
 			            </tr>
                         <tr>
-				            <td style="text-align:left;"><a href="Opcion.aspx"><span id="btnOpción" class="button">Opción</span></a></td>
-                            <td style="text-align:right;"><a href="DetenerAtencionFacilidades.aspx"><span id="btnDetener" class="button">Detener Atención</span></a></td>
+				            <td style="text-align:left;"><a href="Opcion.aspx"><span id="btnOpción" class="button">Continuar</span></a></td>
+                            <td style="text-align:right;"><a href="DetenerAtencionMotivo.aspx"><span id="btnDetener" class="button">Detener Atención</span></a></td>
 			            </tr>
                         <tr>
 				            <td colspan="2" style="background: #ff9999;color:white;">Comercio</td>
